@@ -1,0 +1,27 @@
+.user-profile-card {
+  margin: 20px;
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.user-avatar img {
+  border-radius: 50%;
+}
+
+ion-card-content {
+  --background: #fff;
+  /* Cambia esto por tu color preferido o imagen de fondo */
+}
+
+ion-item {
+  --border-style: none;
+}
+
+ion-icon {
+  --color: #000;
+  /* Cambia el color de tus iconos aquí */
+}

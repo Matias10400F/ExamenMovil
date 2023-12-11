@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Hora Mundial Actual
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="currentTime">
+    <ion-card-header>
+      <ion-card-title>{{ currentTime.datetime }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Timezone: {{ currentTime.timezone }}</p>
+      <p>UTC Offset: {{ currentTime.utc_offset }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="full" (click)="getCurrentTime()">Actualizar Hora</ion-button>
+</ion-content>

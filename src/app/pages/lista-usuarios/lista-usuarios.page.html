@@ -1,0 +1,6 @@
+<ion-list>
+  <ion-item *ngFor="let usuario of usuarios"> {{ usuario.email }} </ion-item>
+</ion-list>
+
+<ion-button (click)="descargarUsuariosJson()">Descargar JSON</ion-button>
+<app-footer></app-footer>

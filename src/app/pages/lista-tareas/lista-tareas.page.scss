@@ -1,0 +1,14 @@
+.tarea-completada {
+  text-decoration: line-through;
+  color: #d9d9d9;
+}
+
+ion-item {
+  --border-color: transparent;
+}
+
+ion-footer {
+  ion-button {
+    --background: transparent;
+  }
+}

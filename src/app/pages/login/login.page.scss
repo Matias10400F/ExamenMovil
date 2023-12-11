@@ -1,0 +1,124 @@
+// .img {
+//   max-width: auto;
+//   height: 100px;
+
+// }
+
+// .titulo-redondo {
+//   background-color: #3498db; /* Color de fondo */
+//   color: white; /* Color del texto */
+//   border-radius: 10px; /* Hace que el fondo sea redondo */
+//   padding: 30px 20px; /* Espaciado interior para el texto */
+//   display: inline-block; /* Hace que el fondo abrace el contenido */
+//   font-size: 50px;
+
+// }
+
+// .ion-content {
+//   background-color: aqua;
+// }
+
+// .crcuenta{
+//   position: absolute;
+//   top: 50%; 
+//   left: 50%; 
+//   transform: translate(-50%, 50%); 
+// }
+
+// .contenedor {
+//   position: relative;
+//   margin-top: 60px;
+// }
+
+// .mensaje {
+//   position: absolute;
+//   top: -20px; /* Ajusta la distancia vertical según sea necesario */
+//   left: 0;
+//   right: 0;
+//   text-align: center;
+//   font-size: 16px; /* Ajusta el tamaño de fuente según sea necesario */
+//   color: #333; /* Ajusta el color del texto según sea necesario */
+// }
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+// Estilos para la página de login
+
+ion-content {
+  --background: linear-gradient(to right, #5f565b, hsl(215, 93%, 65%));
+}
+
+ion-grid {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.titulo-redondo {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+ion-item {
+  --background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+ion-input {
+  --placeholder-color: #333;
+  --caret-color: #333;
+  color: #333;
+}
+
+ion-button {
+  --border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.mensaje {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.contenedor {
+  margin-top: 1rem;
+}
+
+ion-button[routerLink] {
+  --border-radius: 20px;
+}
+
+
+
+
+
+/* Estilos personalizados para ajustar la posición del nuevo botón */
+
+
+
+

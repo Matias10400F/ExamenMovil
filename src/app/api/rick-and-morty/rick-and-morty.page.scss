@@ -1,0 +1,44 @@
+// Estilos para la página de personajes
+
+ion-header {
+  --ion-background-color: #3498db;
+}
+
+ion-toolbar {
+  --ion-color-base: #ffffff;
+}
+
+ion-content {
+  --background: #f4f4f4;
+}
+
+ion-list {
+  margin: 10px;
+}
+
+ion-item {
+  --ion-item-background: #ffffff;
+  --ion-item-border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+ion-thumbnail img {
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #555;
+}
+
+ion-infinite-scroll-content {
+  color: #555;
+}
+
+// Añadir cualquier estilo adicional necesario

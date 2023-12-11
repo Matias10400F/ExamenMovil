@@ -1,0 +1,39 @@
+ion-content {
+  --background: #2c3e50;
+  /* Fondo principal con tono oscuro */
+  color: #ecf0f1;
+  /* Texto claro para contraste en fondo oscuro */
+}
+
+ion-item {
+  --ion-item-background: #34495e;
+  /* Fondo gris oscuro para los elementos de lista */
+  --ion-item-border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Sutil sombra para profundidad */
+}
+
+ion-label {
+  color: #ecf0f1;
+  /* Texto claro para las etiquetas */
+}
+
+ion-input {
+  border-radius: 8px;
+  --ion-input-border-color: #2c3e50;
+  /* Borde del input con tono oscuro */
+  --ion-input-background-color: #34495e;
+  /* Fondo gris oscuro para el input */
+  color: #ecf0f1;
+  /* Texto claro para contraste en fondo oscuro */
+}
+
+ion-button {
+  --ion-text-color: #ffffff;
+  /* Texto blanco para los botones */
+  --ion-background-color: #3498db;
+  /* Color azul claro para el fondo de los botones */
+  border-radius: 8px;
+  margin-top: 20px;
+}

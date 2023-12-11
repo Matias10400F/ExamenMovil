@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Notificaciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let notificacion of notificaciones">
+      <ion-avatar slot="start">
+        <img [src]="notificacion.imagen" />
+      </ion-avatar>
+      <ion-label>
+        <h2>{{ notificacion.titulo }}</h2>
+        <p>{{ notificacion.mensaje }}</p>
+        <p>{{ notificacion.fecha | date }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+<app-footer></app-footer>

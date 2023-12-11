@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="header-content">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Hora Actual</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>{{ currentTime }}</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-avatar class="user-avatar">
+      <img src="assets/icon/perfil2.png" />
+    </ion-avatar>
+    <div class="user-info">
+      <h2 class="username">Alison Reed</h2>
+      <div class="stats">
+        <div class="stat-item">16<br />Accepted</div>
+        <div class="stat-item">23<br />In order</div>
+        <div class="stat-item">42<br />Done</div>
+      </div>
+    </div>
+
+    <div class="dashboard-cards">
+      <ion-row>
+        <!-- Calendario -->
+        <ion-col size="6">
+          <div class="card" [routerLink]="['/calendario']">
+            <img src="assets/icon/calendario.png" alt="Calendario" />
+            <div>Calendario</div>
+          </div>
+        </ion-col>
+
+        <!-- Notas -->
+        <ion-col size="6">
+          <div class="card" [routerLink]="['/home']">
+            <img src="assets/icon/notas.png" alt="Notas" />
+            <div>Notas</div>
+          </div>
+        </ion-col>
+
+        <!-- Tareas -->
+        <ion-col size="6">
+          <div class="card" [routerLink]="['/notificaciones']">
+            <img src="assets/icon/notificaciones.png" alt="Tareas" />
+            <div>Notificaciones</div>
+          </div>
+        </ion-col>
+
+        <!-- Perfil -->
+        <ion-col size="6">
+          <div class="card" [routerLink]="['/perfil']">
+            <img src="assets/icon/perfil.png" alt="Perfil" />
+            <div>Perfil</div>
+          </div>
+        </ion-col>
+
+        <!-- Puedes añadir más tarjetas aquí si lo necesitas -->
+      </ion-row>
+    </div>
+  </div>
+</ion-content>
+
+<app-footer></app-footer>
